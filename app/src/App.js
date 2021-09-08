@@ -28,10 +28,12 @@ const App = (props) => {
   }
   return (
     <div className="App">
-      <h1>Random dog facts!</h1>
-      <h2>{props.anime}</h2>
-      <h4>{props.character}</h4>
-      <p>{props.quote}</p>
+      <h1>Random Anime Quotes!</h1>
+      <div className ='cont'>
+        <h2>{props.anime}</h2>
+        <h4>{props.character}</h4>
+        <p>{props.quote}</p>
+      </div>
       <button onClick ={handleClick}>Generate Quote!</button>
     </div>
 
